@@ -1,0 +1,162 @@
+
+@page { margin: 0 }
+body { margin: 0 }
+.sheet {
+  margin: 0;
+  overflow: hidden;
+  position: relative;
+  box-sizing: border-box;
+  page-break-after: always;
+  
+}
+body {
+    margin: 5% 10%;
+    font-family: 'Times New Roman', Times, serif;
+    color: #1776a2;
+  }
+  
+
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .table th,
+  .table td {
+    border: 1px solid black;
+    padding: 8px;
+  }
+  
+  .table thead th {
+    border-bottom: 1px solid black;
+  }
+  
+  .table tbody tr:nth-child(odd) {
+    border-bottom: 1px solid black;
+  }
+  
+    /* Custom styling */
+   
+    .table-container{
+      width: 95%;
+    }
+    
+    .header {
+      text-align: left;
+    }
+    .title {
+      font-size: 18px;
+      font-weight: normal;
+      margin-bottom: 20px;
+    }
+    .title p{
+        margin: -2px;
+        padding: 0;
+    }
+    .content {
+      text-align: center;
+      margin-top: 45px;
+      justify-content: center;
+      margin-bottom: 20px;
+      margin-right: 5%;
+    }
+   
+    .to-label {
+      font-weight:normal;
+      margin-top: 20px;
+      margin-bottom: 25px;
+      margin-left: 5px;
+      font-size: 18px;
+      text-align: left;
+    }
+    .table {
+      width: 100%;
+      border-collapse: collapse;
+      
+    }
+.sl-no{
+   width: 50px;
+   text-align: center;
+   
+}
+td .row .col, .col-7, .col-3{
+    text-align: left;
+    min-height: 40px;
+    word-spacing: 4px;
+    padding-top: 2px;
+    
+}
+td .row .col-7{
+    text-align: left;
+    padding-left: 25px;
+    
+}
+td .row .col-3{
+    text-align: left;
+    padding-left: 25px;
+    
+}
+td .row .col{
+    text-align: left;
+    padding-left: 8px;
+    padding-top: 2px;
+    font-weight: bold;
+    font-size: 22px;
+    border-left: 1px solid black;
+    
+}
+
+    .table th,
+    .table td {
+      border: 1px solid black;
+      padding: 0px;
+    }
+
+    .table thead th {
+      border-bottom: 1px solid black;
+      height: 40px;
+      padding-bottom: 10px;
+      font-weight: normal;
+    }
+
+    .table tbody tr:nth-child(odd) {
+      border-left: 1px solid black;
+    }
+    .info{
+        width: 100%;
+        font-size: 18px;
+        line-height: 24px;
+        padding: 1px 5px 1px 5px;
+        margin-top: -17px;
+        border-left: 1px solid black;
+        border-right: 1px solid black;
+        /* border-bottom: 1px solid black; */
+        text-align: left;
+        word-spacing: 4px;
+        padding-bottom: 10px;
+        
+    }
+    .blank{
+        height: 120px;
+        margin-top: -16px;
+        border-left: 1px solid black;
+        border-bottom: 1px solid black;
+        border-right: 1px solid black;
+    }
+    .sign{
+        text-align: right;
+        padding-top: 85px;
+        padding-right: 7px;
+    }
+    .print-button{
+        margin-top: 20px;
+        margin-left:50px ;
+    }
+    @media print {
+      .print-button {
+        display: none;
+      }
+    }
+  
+  
+  
